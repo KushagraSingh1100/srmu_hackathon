@@ -1,0 +1,91 @@
+.signup-page{
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: rgba(138, 138, 138, 0);
+    backdrop-filter: blur(3px);
+    border-radius: 1vw;
+    width: 80vw;
+    height: 42vw;
+    border: 2px solid black;
+    color: white;
+}
+
+.signup-img{
+    height: max-content;
+    width: max-content;
+    padding: 2vw;
+}
+
+.signup-img img{
+    border-radius: 2vw;
+    height: 35vw;
+    width: 50vw;
+}
+
+.signup-form{
+    width: 24vw;
+    height: 35vw;
+    border-radius: 2vw;
+}
+
+.signup-form form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2vw;
+    padding-top: 0;
+    padding-bottom: 0vw;
+}
+
+.signup-form form label{
+    padding: 0.5vw 0;
+    text-align: start;
+}
+
+.signup-form form input{
+    border-radius: 0.5vw;
+    border: none;
+    padding: 0.5vw;
+    height: 2vw;
+    position: relative;
+}
+
+.signup-form img{
+    position: absolute;
+    width: 1.5vw;
+}
+
+.password{
+    left: 92%;
+    top: 72%;
+    cursor: pointer;
+}
+.confirm{
+    left: 92%;
+    top: 83.5%;
+    cursor: pointer;
+}
+
+.signup-form button{
+    cursor: pointer;
+    color: white;
+    border-radius: 0.5vw;
+    background: linear-gradient(90deg, rgb(24, 24, 24) 0%, rgb(57, 57, 63) 25%, rgba(90,94,94,1) 70%);
+    margin-top: 1vw;
+    padding: 0.5vw;
+}
