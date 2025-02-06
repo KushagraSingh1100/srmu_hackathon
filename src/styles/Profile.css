@@ -1,0 +1,25 @@
+.main{
+     margin: 5rem ;
+     height: 80vh;
+     width: 80vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: blueviolet;
+}
+.head{
+     background-color: red;
+     height: 20%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.about{
+     background-color: palegreen;
+     height: 80%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

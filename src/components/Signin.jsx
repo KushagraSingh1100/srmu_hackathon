@@ -3,7 +3,9 @@ import "../styles/Signup.css";
 import openeye from "../assets/openeye.png";
 import closedeye from "../assets/closedeye.png";
 import KUTE from "kute.js";
-function SignUp() {
+import "../styles/Signup.css";
+import { Link } from "react-router-dom";
+function Signin() {
   const [paseye, setPaseye] = useState(false);
   const [coneye, setConeye] = useState(false);
   useEffect(() => {
@@ -87,11 +89,7 @@ function SignUp() {
         </div>
         <div className="signup-form">
           <form action="">
-            <h1>SignUp</h1>
-            <label htmlFor="">Username</label>
-            <input required type="text" placeholder="Enter Username" />
-            <label htmlFor="">Mobile Number</label>
-            <input required type="number" placeholder="Enter mobile number" />
+            <h1>Sign In</h1>
             <label htmlFor="">College ID</label>
             <input required type="text" placeholder="Enter college ID" />
             <label htmlFor="">E-Mail</label>
@@ -108,19 +106,9 @@ function SignUp() {
               src={paseye == false ? openeye : closedeye}
               alt=""
             />
-            <label htmlFor="">Confirm Password</label>
-            <input
-              required
-              type={coneye == false ? "password" : "text"}
-              placeholder="Enter password again"
-            />
-            <img
-              className="confirm"
-              onClick={() => setConeye(!coneye)}
-              src={coneye == false ? openeye : closedeye}
-              alt=""
-            />
-            <button>SignUp</button>
+            <Link to="/">
+              <button>Sign In</button>
+            </Link>
           </form>
         </div>
       </div>
@@ -128,4 +116,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Signin;

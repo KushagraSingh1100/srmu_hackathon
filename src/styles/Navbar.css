@@ -1,9 +1,11 @@
 .navbar{
     width: 20vw;
-    height: 100vh;
-    background-image: linear-gradient(to top, #fbc2eb33 0%, #a6c0ee2b 100%);
-    padding: 1vw;
+    height: 96vh;
+    background: linear-gradient(to bottom, #fc5c7c10, #6a82fb0f);; 
+    padding: 0vw 1vw 2vw 1vw;
     font-family: "Roboto", serif;
+    color: #4B164C;
+    border-end-end-radius: 1vw;
 }
 
 .profile{
@@ -11,7 +13,7 @@
     height: 10vh;
     display: flex;
     align-items: center;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     justify-content: space-between;
 }
 
@@ -47,15 +49,18 @@
     flex-direction: column;
     align-items: start;
     gap: 2vw;
-    background-color: rgba(224, 187, 255, 0.168);
     padding: 1vw;
     border-radius: 1vw;
 }
 
-.calendar,.upcoming, .recent, .registered, .team,.setting, .support{
+.calendar,.upcoming, .recent, .registered,.community ,.team,.setting, .support{
     display: flex;
     align-items: center;
     gap: 1vw;
+    cursor: pointer;
+    &:hover{
+        opacity: 60%;
+    }
 }
 
 .navbar-options img{
@@ -63,6 +68,6 @@
 }
 
 .navbar-options h1{
-    font-size: 1vw;
+    font-size: 0.9vw;
     font-weight: 400;
 }
