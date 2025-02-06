@@ -78,6 +78,7 @@
     top: 65.5%;
     cursor: pointer;
 }
+
 .password-signin {
     left: 79.8%;
     top: 45.3%;
@@ -114,7 +115,8 @@
     left: -20%;
     top: -30%;
 }
-.option{
+
+.option {
     padding-top: 0.5vw;
 }
 
