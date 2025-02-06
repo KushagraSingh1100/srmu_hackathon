@@ -101,11 +101,16 @@ function Signin() {
               placeholder="Enter password"
             />
             <img
-              className="password"
+              className="password-signin"
               onClick={() => setPaseye(!paseye)}
               src={paseye == false ? openeye : closedeye}
               alt=""
             />
+            <div className="option">
+              <Link to="/signup">
+                <h3>Don't have an accout? SignUp</h3>
+              </Link>
+            </div>
             <Link to="/">
               <button>Sign In</button>
             </Link>

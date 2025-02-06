@@ -3,6 +3,7 @@ import "../styles/Signup.css";
 import openeye from "../assets/openeye.png";
 import closedeye from "../assets/closedeye.png";
 import KUTE from "kute.js";
+import { Link } from "react-router-dom";
 function SignUp() {
   const [paseye, setPaseye] = useState(false);
   const [coneye, setConeye] = useState(false);
@@ -120,6 +121,11 @@ function SignUp() {
               src={coneye == false ? openeye : closedeye}
               alt=""
             />
+            <div className="option">
+              <Link to="/signin">
+                <h3>Already have an accout? SignIn</h3>
+              </Link>
+            </div>
             <button>SignUp</button>
           </form>
         </div>

@@ -10,6 +10,7 @@ import setting from "../assets/setting.png";
 import team from "../assets/team.png";
 import community from "../assets/community.png";
 import support from "../assets/support.png";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar">
@@ -18,10 +19,14 @@ function Navbar() {
           <img src={user} alt="" />
         </div>
         <div className="username">
+          <Link to="/">
           <h3>Kushagra</h3>
+          </Link>
         </div>
         <div className="edit">
+          <Link to="/signup">
           <img src={edit} alt="" />
+          </Link>
         </div>
       </div>
       <div className="navbar-options">
@@ -52,8 +57,10 @@ function Navbar() {
             <h1>Team</h1>
           </div>
           <div className="community">
-            <img src={community} alt="" />
-            <h1>Community</h1>
+            <Link to="/community">
+              <img src={community} alt="" />
+              <h1>Community</h1>
+            </Link>
           </div>
         </div>
         <div className="settings">

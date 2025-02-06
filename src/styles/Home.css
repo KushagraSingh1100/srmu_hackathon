@@ -89,29 +89,42 @@
     height: max-content;
     padding: 1vw;
     font-size: 1vw;
-
-    &:hover{
-        opacity: 0.6;
-    }
+    cursor: pointer;
 }
 
 .pinned-events .card{
     color: #5ea9ff;
     background-color: #8ec3ff47;
+    &:hover{
+        transition: background-color 0.1s;
+        background-color: #8ec3ff29;
+    }
 }
 
 .inprogress-events .card{
     color: #ffb53e;
     background-color: #ffb64147;
+    &:hover{
+        transition: background-color 0.1s;
+        background-color: #ffb64124;
+    }
 }
 
 .upcoming-events .card{
     color: #d65dff;
     background-color: #e38eff47;
+    &:hover{
+        transition: background-color 0.1s;
+        background-color: #e38eff2b;
+    }
 }
 .registered-events .card{
     color: #32cf4f;
     background-color: #8effa347;
+    &:hover{
+        transition: background-color 0.1s;
+        background-color: #8effa328;
+    }
 }
 
 .card .tag{

@@ -1,11 +1,23 @@
 .navbar{
     width: 20vw;
     height: 96vh;
-    background: linear-gradient(to bottom, #fc5c7c10, #6a82fb0f);; 
+    background: linear-gradient(to bottom, #fc5c7c10, #6a82fb0f); 
     padding: 0vw 1vw 2vw 1vw;
     font-family: "Roboto", serif;
     color: #4B164C;
     border-end-end-radius: 1vw;
+}
+
+.navbar a{
+    all: unset;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.6;
+    }
 }
 
 .profile{
@@ -41,7 +53,7 @@
 .navbar-options{
     display: flex;
     flex-direction: column;
-    gap: 2.5vw;
+    gap: 2vw;
 }
 
 .main, .Records, .settings{
@@ -55,6 +67,7 @@
 
 .calendar,.upcoming, .recent, .registered,.community ,.team,.setting, .support{
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 1vw;
     cursor: pointer;
@@ -62,6 +75,9 @@
         opacity: 60%;
     }
 }
+
+
+
 
 .navbar-options img{
     width: 1.5vw;
