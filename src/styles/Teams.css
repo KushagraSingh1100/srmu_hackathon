@@ -40,6 +40,10 @@
   height: 30%;
   background-color: #b793f3;
 }
+.teams-card .teams-one {
+  background-color: #cebbee;
+  border: 1px solid white;
+}
 .teams-upper-two {
   z-index: 1;
   border-top-left-radius: 10px;
@@ -47,12 +51,20 @@
   height: 30%;
   background-color: #30d5b4;
 }
+.teams-card .teams-two {
+  background-color: #72e9d1;
+  border: 1px solid white;
+}
 .teams-upper-three {
   z-index: 1;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 30%;
-  background-color: #f7ae80;
+  background-color: #f5a675;
+}
+.teams-card .teams-three {
+  background-color: #f9c4a3;
+  border: 1px solid white;
 }
 .teams-upper-four {
   z-index: 1;
@@ -61,6 +73,10 @@
   background-color: #2fb976da;
   height: 30%;
 }
+.teams-card .teams-four {
+  background-color: #83e0b3;
+  border: 1px solid white;
+}
 .teams-upper-five {
   z-index: 1;
   border-top-left-radius: 10px;
@@ -68,12 +84,20 @@
   background-color: #30d5b4;
   height: 30%;
 }
+.teams-card .teams-six {
+  background-color: #cebbee;
+  border: 1px solid white;
+}
 .teams-upper-six {
   z-index: 1;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: #b793f3;
   height: 30%;
+}
+.teams-card .teams-five {
+  background-color: #72e9d1;
+  border: 1px solid white;
 }
 .teams-z {
   position: relative;
@@ -87,7 +111,19 @@
   width: 30%;
   background-color: #fff;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .teams-lower {
+  height: 60%;
   text-align: center;
+  border-left: 1px solid rgb(189, 189, 189);
+  border-right: 1px solid rgb(189, 189, 189);
+  border-bottom: 1px solid rgb(189, 189, 189);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.teams-card p {
+  margin-bottom: 3px;
 }
