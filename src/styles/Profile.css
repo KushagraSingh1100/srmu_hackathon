@@ -1,25 +1,214 @@
-.main{
-     margin: 5rem ;
-     height: 80vh;
-     width: 80vw;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: blueviolet;
+.profile-page {
+  height: 98vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  overflow: hidden;
 }
-.head{
-     background-color: red;
-     height: 20%;
-     width: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
+
+.profile-main {
+  padding-top: 0.5vw;
+  overflow: hidden;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 1vw;
 }
-.about{
-     background-color: palegreen;
-     height: 80%;
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+
+.profile-head {
+  height: 20%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.082);
+  gap: 1rem;
+  border-radius: 20px;
 }
+
+.profile-pic {
+  padding-left: 0.5rem;
+  position: relative;
+  height: 5vw;
+  width: fit-content;
+  border-radius: 100%;
+}
+
+.profile-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  flex-direction: column;
+}
+
+.profile-about {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2vw;
+  margin-bottom: 2rem;
+  height: 80%;
+  width: 90%;
+}
+
+.profile-side {
+  height: 32vw;
+  width: 35%;
+  background: linear-gradient(to bottom, #fff7674d, #fcf1d748);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 3vw;
+  border-radius: 2vw;
+}
+
+.profile-side h2{
+  color: rgb(255, 174, 0);
+}
+
+.participated {
+  display: flex;
+  justify-content: space-between;
+}
+
+.participated p{
+  width: 18vw;
+}
+
+.profile-focus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  width: 54%;
+}
+
+.profile-side p {
+  margin: 10px;
+  /* background-color: blanchedalmond; */
+}
+
+.profile-first {
+  padding: 0 20px;
+  text-align: left;
+  height: 100%;
+  width: 50%;
+}
+
+.profile-second {
+  text-align: left;
+  height: 100%;
+  width: 75%;
+}
+
+.profile-middle {
+  height: 60%;
+  width: 100%;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  flex-wrap: 1;
+  
+  border-radius: 20px;
+  align-items: baseline;
+  background-color: #8ec3ff47;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+.profile-middle h2{
+  text-align: start;
+  padding: 1vw 2vw;
+  color: rgb(60, 107, 247);
+}
+
+
+.profile-middle img {
+  height: 100px;
+  width: 155px;
+  /* padding-left: 40px; */
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0.7rem;
+  gap: 0.5vw;
+  cursor: pointer;
+}
+
+.profile-projects {
+  margin-top: 10px;
+  width: 38.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  
+}
+
+.profile-first p {
+  margin: 5px;
+}
+
+.profile-middle h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.profile-open {
+  background-color: #8effa347;
+  color: #32cf4f;
+  border-radius: 1vw;
+  padding: 2vw 0;
+  margin-top: 0.5rem;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
+}
+
+.profile-open p{
+  color: black;
+}
+
+.profile-portfolio {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+h1 {
+  overflow: hidden;
+}
+
+h1 span {
+  display: inline-block;
+}
+

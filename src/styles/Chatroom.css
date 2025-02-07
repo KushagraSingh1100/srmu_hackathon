@@ -1,0 +1,150 @@
+.chat{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.chatsec{
+    padding-top: 1vw;
+    width:100vw ;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 1.3vw;
+}
+.friendssec{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start-start;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.friends{
+    width: 300px;
+    height: 30vw;
+    margin-top: 0.2vw;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-top: 1vw;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.trends{
+    width: 300px;
+    height: 20vw;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-top: 0.5vw;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.imgofperson{
+    scale: 0.7;
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.friendname{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: left;
+    gap: 15px;
+    margin-top: 9px;
+
+}
+.friendname ol{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: left;
+    gap: 15px;
+    margin-top: 9px;
+    font-size: 18px;
+
+}
+
+.chatting{
+    display: flex;
+    width: 400px;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+}
+
+.actualchat{
+    margin-top: 20px;
+    width: 250px;
+    height: 4vw;
+    padding: 1vw;
+    background-color: #9DCAFF;
+    border-radius: 10px;
+    font-size: 14px;
+
+}
+.actualchat p{
+    margin: 5px 0px 0px 5px;
+    /* width: 250px;
+    height: 100px; */
+    /* background-color: #9DCAFF; */
+    border-radius: 20px;
+    font-size: 14px;
+
+}
+
+.right{
+    margin-left: auto;
+    
+}
+
+.typing{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    gap: 20px;
+    width: 800px;
+    height: 200px;
+    /* background-color: orange; */            
+    margin: auto;
+}
+
+.textfield{
+    width: 700px;
+    height: 40px;
+    border-radius: 20px;        
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px ;
+    border: 2px solid black;
+      
+    /* border: none; */
+}
+
+.btnsend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    background-color: blue;
+    border: none;   
+    
+}
+
+.friends h1, .trends h1{
+    font-weight: 500;
+}

@@ -15,17 +15,19 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="profile">
-        <div className="pfp">
-          <img src={user} alt="" />
-        </div>
+        <Link to="/profile">
+          <div className="pfp">
+            <img src={user} alt="" />
+          </div>
+        </Link>
         <div className="username">
           <Link to="/">
-          <h3>Kushagra</h3>
+            <h3>Pranav</h3>
           </Link>
         </div>
         <div className="edit">
           <Link to="/signup">
-          <img src={edit} alt="" />
+            <img src={edit} alt="" />
           </Link>
         </div>
       </div>
@@ -34,28 +36,38 @@ function Navbar() {
         <div className="main">
           <div className="h1">Main</div>
           <div className="calendar">
-            <img src={events} alt="" />
-            <h1>Events Calendar</h1>
+            <Link to="/">
+              <img src={events} alt="" />
+              <h1>Events Calendar</h1>
+            </Link>
           </div>
           <div className="upcoming">
-            <img src={upcoming} alt="" />
-            <h1>Upcoming Events</h1>
+            <Link to="/upcoming">
+              <img src={upcoming} alt="" />
+              <h1>Upcoming Events</h1>
+            </Link>
           </div>
           <div className="recent">
-            <img src={recent} alt="" />
-            <h1>Recent Events</h1>
+            <Link to="/recent">
+              <img src={recent} alt="" />
+              <h1>Recent Events</h1>
+            </Link>
           </div>
           <div className="registered">
-            <img src={registered} alt="" />
-            <h1>Registered Events</h1>
+            <Link to="/registered">
+              <img src={registered} alt="" />
+              <h1>Registered Events</h1>
+            </Link>
           </div>
         </div>
         <div className="Records">
           <div className="h1">Social</div>
+          <Link to="/team">
           <div className="team">
             <img src={team} alt="" />
             <h1>Team</h1>
           </div>
+          </Link>
           <div className="community">
             <Link to="/community">
               <img src={community} alt="" />

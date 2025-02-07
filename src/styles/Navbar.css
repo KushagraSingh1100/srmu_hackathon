@@ -1,11 +1,13 @@
 .navbar{
-    width: 20vw;
+    width: 15vw;
     height: 96vh;
     background: linear-gradient(to bottom, #fc5c7c10, #6a82fb0f); 
     padding: 0vw 1vw 2vw 1vw;
     font-family: "Roboto", serif;
     color: #4B164C;
     border-end-end-radius: 1vw;
+    position: sticky;
+    top: 0;
 }
 
 .navbar a{
